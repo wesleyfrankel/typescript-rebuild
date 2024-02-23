@@ -5,6 +5,19 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background-color: white;
+}
+
+.rosterList {
+  margin-bottom: 10px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.homePageLink {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
 }
 
 .description {
@@ -16,6 +29,7 @@
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
+  text-align: center;
 }
 
 .description a {
