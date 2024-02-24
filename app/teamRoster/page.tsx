@@ -16,6 +16,9 @@ const Roster = () => {
         <h2 style={{ marginBottom: "20px", textAlign: "center" }}>
           Here is the starting 11:
         </h2>
+        <h3 style={{ marginBottom: "20px", textAlign: "center" }}>
+          Click on a name for more info
+        </h3>
         <ul>
           {allPlayers.map((player) => (
             <li key={player.number} className={styles.rosterList}>
